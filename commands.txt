@@ -5,3 +5,6 @@ ps -ef | grep nginx
 sudo netstat -ntlp
 sudo service nginx stop
 sudo vi /etc/nginx/nginx.conf
+
+
+nginx -t -c /etc/nginx/nginx.conf     // syntax check
