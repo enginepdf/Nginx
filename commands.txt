@@ -3,3 +3,5 @@ sudo service nginx start
 sudo service nginx status
 ps -ef | grep nginx
 sudo netstat -ntlp
+sudo service nginx stop
+sudo vi /etc/nginx/nginx.conf
