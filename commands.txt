@@ -1,0 +1,5 @@
+sudo amazon-linux-extras install nginx1
+sudo service nginx start
+sudo service nginx status
+ps -ef | grep nginx
+sudo netstat -ntlp
